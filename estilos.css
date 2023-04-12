@@ -149,3 +149,58 @@ header {
     word-spacing: 8px;
     letter-spacing: 1px;
 }
+
+
+/*section - studio*/
+.titulo-section h2 {
+    background-color: white;
+    color:black;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-family: 'Alegreya SC', serif;
+    text-transform: uppercase;
+}
+
+.container-bienvenida {
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.caja-1 {
+    background-color: white;
+    color:black;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    height: auto;
+}
+
+.caja-1 h3 {
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 0px 20px;
+    font-family: 'Alegreya SC', serif;
+}
+
+
+.btn-form {
+    background-color: rgb(168, 100, 18);
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 35px 0px;
+    padding: 20px 40px;
+    font-family: 'Alegreya SC', serif;
+}
+
+.btn-form:hover {
+    color:black
+}
