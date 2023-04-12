@@ -204,3 +204,76 @@ header {
 .btn-form:hover {
     color:black
 }
+
+/*section - portfolios*/
+p {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.caja-2{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.container-box{
+    display: inline-block;
+}
+
+.container-box p{
+    font-size: 15px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.box a{
+    text-decoration: none;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.box a:hover {
+    color:rgb(168, 100, 18);
+    font-size: 20px;
+}
+
+#box1 {
+    background-image: url(img/img-box/boda.jpeg);
+}
+
+#box2{
+    background-image: url(img/img-box/15.jpeg);
+}
+
+#box3{
+    background-image: url(img/img-box/nacimiento.jpeg);
+}
+
+#box4{
+    background-image: url(img/img-box/cumpleaños.jpeg);
+}
+
+#box5{
+    background-image: url(img/img-box/evento.jpeg);
+}
+
+#box6{
+    background-image: url(img/img-box/productos.jpeg);
+}
