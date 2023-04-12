@@ -1,4 +1,151 @@
+/*FUENTES*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
+}
+
+/*HEADER  Y NAV */
+
+header {
+    min-height: 100vh;
+    position: relative;
+}
+
+.nav-top {
+    background-color: white;
+}
+
+.nav-top .contenedor-nav {
+    background-color: white;
+    display: block;
+    width: 100%;
+    min-height: 30vh;
+    text-align: center;
+}
+
+.logo h1 {
+    background-color:white;
+    text-align: center;
+    margin: 0;
+    padding: 12px;
+    color: black;
+    font-size: 30px;
+    font-family: 'Alegreya SC', serif;
+    letter-spacing: 5px;
+}
+
+.logo p{
+    text-align: center;
+    color: black;
+    font-family: 'Alegreya SC', serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul {
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.menu a {
+    color: black;
+    font-family: 'Alegreya SC', serif;
+    text-decoration: none;
+    width: 200px;
+    transition: .5s;
+    display: block;
+}
+
+.menu a:hover {
+    color:rgb(168, 100, 18);
+    font-size: 20px;
+}
+
+.caja-video video {
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.caja-video::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.caja-info {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.caja-info h2, .caja-info h3 {
+    margin: 0 0 20px ;
+}
+
+.caja-info p{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    word-spacing: 8px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.caja-info h2 {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Alegreya SC', serif;
+}
+
+.caja-info h3 {
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Great Vibes', cursive;
+    word-spacing: 8px;
+    letter-spacing: 1px;
 }
