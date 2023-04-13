@@ -1,221 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TRABAJO INTEGRADOR GRUPO 14</title>
-    <link rel="stylesheet" href="estilos.css">
-
-
-    <!--BOOTSTRAP-->
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-
-    <!--font-awesome-->
-    <script src="https://kit.fontawesome.com/4c1cf873aa.js" crossorigin="anonymous"></script>
-
-
+    <title>Registrate</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    
-    <header>
-        <div class="container-fluid nav-top">
-            <div class="contenedor-nav">
-
-                <nav class="menu" id="nav">
-                    <ul>
-                        <li><a href="#estudio">STUDIO</a></li>
-                        <li><a href="#portfolios">PORTFOLIOS</a></li>
-                        <li><a href="#workshops">WORKSHOPS</a></li>
-                        <li><a href="#colecciones">COLLECTIONS</a></li>
-                        <li><a href="#instagram">INSTAGRAM</a></li>
-                        <li><a href="#contacto">CONTACT</a></li>
-                    </ul>
-                </nav>
-
-                <div class="logo">
-                    <hr>
-                    <h1>CASSIES JONES</h1>
-                    <p>fotografías & videos</p>
-                    <hr>
-                </div>
-
-            </div>
+    <div class="contenedor">
+        <div class="cabecera">
+            <h2>Registrate</h2>
         </div>
+        <form id="formulario" action="procesar.php" method="">
 
-        <div class="container-fluid caja-video">
-            <video autoplay muted loop poster="img/img-portada/novios-portada.jpg">
-                <source src="video/casamiento-portada.mp4">
-            </video>
-        </div>
-
-        <div class="container-fluid caja-info">
-            <p>~ coming soon ~</p>
-            <h2>posing with a purpose</h2>
-            <h3>The magic starts here...</h3>
-        </div>
-    </header>
-
-    <section>
-        <div class="container-estudio" id="estudio">
-
-            <div class="titulo-section">
-                <h2>Studio</h2>
+            <div class="form-control">
+                <label for="usuario">Nombre de usuario</label>
+                <input id="usuario" type="text">
+                <p></p>                
             </div>
 
-            <div class="container-bienvenida">
-                <div class="caja-1">
-                    <p>— WELCOME —</p>
-                    <h3>we're glad you're here</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus quis praesentium velit doloremque quo ipsam ad laborum, saepe similique dolorem illum perspiciatis provident qui sint recusandae error nostrum eius in minus architecto aliquid. Cum, adipisci dolores. Deleniti quia ad nemo. Ratione odit nulla magni praesentium ducimus earum voluptatem natus omnis ipsum pariatur reiciendis, perferendis, a asperiores voluptates est repudiandae beatae qui consequatur. Obcaecati minima, minus, aut eius distinctio, explicabo aliquid aperiam itaque deleniti enim natus. Rem dignissimos quae nostrum tenetur iusto doloribus mollitia aut, ipsam laboriosam repellendus, dolorem ut voluptatibus. Facilis deleniti est quam at neque quasi suscipit accusantium doloremque dolor. Nisi adipisci, nemo dolore, consectetur vitae laborum, hic veritatis accusantium vel mollitia maiores animi! Placeat rem recusandae saepe modi non et, molestiae, dolores provident eos, laudantium eligendi! Porro, vel quod repudiandae rem sunt nemo animi doloremque autem voluptates incidunt?</p>
-                    <a class="btn-form" href="">CONTACT US</a>
-                </div>
+            <div class="form-control">
+                <label for="email">E-mail</label>
+                <input id="email" type="email">
+                <p></p>                
             </div>
 
-        </div>
-
-        <div class="container-portfolios" id="portfolios">
-            <div class="caja-2">
-
-                <div class="titulo-section">
-                    <h2>PORTFOLIOS</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                </div>
-
-                <div class="container-box-pictures">
-                    <div class="container-box">
-                        <div class="box" id="box1"><a href="">— WEDDING —</a></div>
-                        <p>LOREM IPSUM- dolor sit amet.</p>
-                    </div>
-
-                    <div class="container-box">
-                        <div class="box" id="box2"><a href="">— 15 YEARS —</a></div>
-                        <p>LOREM IPSUM- dolor sit amet.</p>
-                    </div>
-
-                    <div class="container-box">
-                        <div class="box" id="box3"><a href="">— NEWLY BORN —</a></div>
-                        <p>LOREM IPSUM- dolor sit amet.</p>
-                    </div>
-
-                    <div class="container-box">
-                        <div class="box" id="box4"><a href="">— BIRTHDAY —</a></div>
-                        <p>LOREM IPSUM- dolor sit amet.</p>
-                    </div>
-
-                    <div class="container-box">
-                        <div class="box" id="box5"><a href="">— EVENTS —</a></div>
-                        <p>LOREM IPSUM- dolor sit amet.</p>
-                    </div>
-
-                    <div class="container-box">
-                        <div class="box" id="box6"><a href="">— PRODUCTS —</a></div>
-                        <p>LOREM IPSUM- dolor sit amet.</p>
-                    </div>
-                </div>
-
+            <div class="form-control">
+                <label for="pass">Password</label>
+                <input id="pass" type="password">
+                <p></p>                
             </div>
-        </div>
-        <div class="container-workshop" id="workshops">
-            <div class="workshop">
-                <div class="caja-3">
-                    <p>— WORKSHOPS —</p>
-                    <h2>THE WORKSHOP EXPERIENCE</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum dolorum alias iste optio
-                        perferendis voluptatem.</p>
-                    <BUtton class="btn-workshop">LEARN MORE</BUtton>
-                </div>
+
+            <div class="form-control">
+                <label for="passConfirma">Confirmar Password</label>
+                <input id="passConfirma" type="password">
+                <p></p>                
             </div>
-        </div>
 
-        <div class="container-colecciones" id="colecciones">
-
-            <div class="caja-4">
-
-                <div class="titulo-section">
-                    <P class="p-sup">— SEE —</P>
-                    <h2>THE COLECTIONS</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur..</p>
-                </div>
-
-                <div class="container-box-colecciones">
-                    <div class="boxes" id="box7">
-                        <a href="">— MATERNITY —</a>
-                    </div>
-                    <div class="boxes" id="box8">
-                        <a href="">— FAMILY —</a>
-                    </div>
-                    <div class="boxes" id="box9">
-                        <a href="">— LITTLE SESSION —</a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="container-insta" id="instagram">
-
-            <div class="caja-5">
-
-                <div class="titulo-section">
-                    <P class="p-sup">— FOLLOW US ON —</P>
-                    <h2> INSTAGRAM </h2>
-                    <p class="arroba">@cassiesjonesphoto</p>
-                </div>
-
-                <div class="container-box-ins">
-                    <div class="box-ins" id="box10"></div>
-                    <div class="box-ins" id="box11"></div>
-                    <div class="box-ins" id="box12"></div>
-                    <div class="box-ins" id="box13"></div>
-                    <div class="box-ins" id="box14"></div>
-                </div>
-
-            </div>
-        </div>
-
-    </section>
-
-    <div class="button-up">
-        <a href="#nav"><i class="fa-solid fa-chevron-up fa-bounce" style="color: #fafafa;"></i></a>
+            <button>Enviar</button>
+        </form>
     </div>
 
-    </section>
-
-
-    <!--INICIO FOOTER----------------------------------------------->
-    <footer>
-        <div class="footer-content">
-            <h3>CASSIES JONES</h3>
-            <P>Fotografía & Video</P>
-            <ul class="socials">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-            </ul>
-        </div>
-        <div class="footer-bottom">
-            <p>copyright &copy;2023 CassiesJones. Desing by <span>Grupo14</span></p>
-        </div>
-
-
-</footer>
-
-
-
-    <!--CIERRE FOOTER---------------------------------------------->
-
-
-    <!--SCRIPT DE BOOTSTRAP-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"crossorigin="anonymous"></script>
-
-
-    <!--SCRIPT DE JS-->
     <script src="app.js"></script>
 </body>
-
 </html>
