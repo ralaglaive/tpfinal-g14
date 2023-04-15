@@ -30,7 +30,7 @@ header {
     background-color: white;
     display: block;
     width: 100%;
-    min-height: 30vh;
+    min-height: 20vh;
     text-align: center;
 }
 
@@ -77,7 +77,7 @@ header {
 }
 
 .menu a:hover {
-    color:rgb(168, 100, 18);
+    color: #D4AF37;
     font-size: 20px;
 }
 
@@ -111,6 +111,7 @@ header {
     color:white;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -191,7 +192,7 @@ header {
 
 
 .btn-form {
-    background-color: rgb(168, 100, 18);
+    background-color:rgb(168, 100, 18);
     display: inline-block;
     color: white;
     text-decoration: none;
@@ -211,11 +212,13 @@ p {
     text-align: center;
     font-family: 'Josefin Slab', serif;
     margin: 0;
-    padding: 0;
+    padding: 25px;
 }
 
 .caja-2{
     background-color: white;
+    display: inline-block;
+    flex-wrap: wrap;
     width: 100%;
     height: auto;
     text-align: center;
@@ -224,6 +227,7 @@ p {
 
 .container-box{
     display: inline-block;
+    flex-wrap: wrap;
 }
 
 .container-box p{
@@ -243,47 +247,49 @@ p {
     height: 200px;
     width: 200px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .box a:hover {
-    color:rgb(168, 100, 18);
+    color: #D4AF37;
     font-size: 20px;
 }
 
 #box1 {
-    background-image: url(img/img-box/boda.jpeg);
+    background-image: url(img/img-box/wedd.jpeg);
 }
 
 #box2{
-    background-image: url(img/img-box/15.jpeg);
+    background-image: url(img/img-box/fifteen.jpeg);
 }
 
 #box3{
-    background-image: url(img/img-box/nacimiento.jpeg);
+    background-image: url(img/img-box/newborn.jpeg);
 }
 
 #box4{
-    background-image: url(img/img-box/cumpleaños.jpeg);
+    background-image: url(img/img-box/birt.jpeg);
 }
 
 #box5{
-    background-image: url(img/img-box/evento.jpeg);
+    background-image: url(img/img-box/event.jpeg);
 }
 
 #box6{
-    background-image: url(img/img-box/productos.jpeg);
+    background-image: url(img/img-box/products.jpeg);
 }
 
 /*section - workshop*/
 .container-workshop{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: auto;
-    background-image: url(img/img-workshop/workshop-banner.jpg);
+    background-image: url(img/img-workshop/weding2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -294,8 +300,9 @@ p {
 
 .workshop{
     width: 100%;
-    background-color:rgba(0, 0, 0, 0.6);
+    background-color:rgba(0, 0, 0, 0.4);
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -304,6 +311,8 @@ p {
 .caja-3{
     width: 60%;
     padding: 60px;
+    display: inline-block;
+    flex-wrap: wrap;
 }
 
 .caja-3 p{
@@ -320,7 +329,7 @@ p {
 }
 
 .btn-workshop:hover {
-    color:rgb(168, 100, 18);
+    color: #D4AF37;
     font-size: 20px;
 }
 
@@ -340,6 +349,8 @@ p {
 
 .caja-4 {
     background-color: white;
+    display: inline-block;
+    flex-wrap: wrap;
     width: 100%; 
     height: auto;
     text-align: center;
@@ -355,8 +366,8 @@ p {
 
 .boxes{
     display: inline-block;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin: 40px;
     background-size: cover;
     background-position: center;
@@ -364,9 +375,10 @@ p {
 
 .boxes a{
     text-decoration: none;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     color: white;
@@ -374,20 +386,24 @@ p {
 }
 
 .boxes a:hover {
-    color:rgb(168, 100, 18);
+    color: #D4AF37;
     font-size: 20px;
 }
 
 #box7{
-    background-image: url(img/img-colections/maternidad.jpeg);
+    background-image: url(img/img-colections/mater.jpeg);
 }
 
 #box8{
-    background-image: url(img/img-colections/familiar.jpeg);
+    background-image: url(img/img-colections/bbshow.jpeg);
 }
 
 #box9{
-    background-image: url(img/img-colections/sesion.jpeg);
+    background-image: url(img/img-colections/litsesion.jpeg);
+}
+
+#box10{
+    background-image: url(img/img-colections/family.jpeg);
 }
 
 
@@ -404,13 +420,9 @@ p {
     text-align: center;
 }
 
-.caja-5 .p-sup{
-    padding-top: 40px;
-}
-
 .caja-5 .arroba{
-    font-size: 25px;
-    font-style: italic;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
 }
 
 .container-box-ins{
@@ -419,31 +431,36 @@ p {
 
 .box-ins{
     display: inline-block;
+    flex-wrap: wrap;
     width: 200px;
     height: 200px;
-    margin: 5px;
+    margin: 40px 5px;
     background-size: cover;
     background-position: center;
 }
 
-#box10{
+#box11{
     background-image: url(img/img-instagram/insta1.jpeg);
 }
 
-#box11{
+#box12{
     background-image: url(img/img-instagram/insta2.jpeg);
 }
 
-#box12{
-    background-image: url(img/img-instagram/insta6.jpeg);
-}
-
 #box13{
-    background-image: url(img/img-instagram/insta4.jpeg);
+    background-image: url(img/img-instagram/insta3.jpeg);
 }
 
 #box14{
+    background-image: url(img/img-instagram/insta4.jpeg);
+}
+
+#box15{
     background-image: url(img/img-instagram/insta5.jpeg);
+}
+
+#box16{
+    background-image: url(img/img-instagram/insta6.jpeg);
 }
 
 
@@ -454,6 +471,7 @@ p {
     min-height: 50px;
     background-color: rgba(0, 0, 0, 0.8);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
@@ -468,88 +486,114 @@ p {
 .button-up:hover{
     transform: scale(1.5);
     font-size: 30px;
-    background-color: rgb(168, 100, 18);
+    background-color: #D4AF37;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background: #fcfcfc;
-    display: grid;
-    min-height: 100vh;
-    grid-template-rows: auto 1fr auto;
- 
-}  
+
+
+/*FOOTER*/
+
 footer{
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background:#FFFFFF ;
+    background: #101010;
+    width: 100%;
     height: auto;
-    width: 100 vw;
-    font-family: "open sans";
-    padding-top: 40px;
-    color: #111;
-    margin-top: auto;
 }
+
 .footer-content{
-    display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     text-align: center;
 }
-.footer-content h3{
-    font-size: 32px;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
+
+.box-foo1{
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
 }
-.footer-content p{
-    max-width: 500px;
-    margin: 1px auto;
-    line-height: 1px;
-    font-size: 16.94px;
+
+.footer-content .p-top{
+    color: white;
+    font-size: 25px;
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 1px;
+    padding: 10px 0 0 0;
 } 
+
+.footer-content h3{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Alegreya SC', serif;
+    letter-spacing: 5px;
+}
+
+.footer-content .p-buttom{
+    color: white;
+    font-size: 15px;
+    font-family: 'Alegreya SC', serif;
+    letter-spacing: 1px;
+    padding: 0 0 5px 0;
+} 
+
+.box-foo2{
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+}
+
+
 .socials{
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin:1rem 0 3rem 0;
+    margin: 10px 0;
 }
+
+.socials ul{
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
 .socials li{
-    margin: 0 20px;
+    margin: 0 50px 20px 50px;
 }
+
 .socials a{
     text-decoration: none;
-    color:#111
+    color:white;
 }
+
 .socials a i{
-    font-size: 1.1rem
-    transition: color .4s ease; 
+    font-size: 40px;
 }
+
 .socials a:hover i{
     color: #D4AF37;
 }
+
 .footer-bottom{
-background: #000;
-width: 100vw;
-padding: 20px 0;
-text-align: center;
+    background: #101010;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
-.footer-bottom p{
-    font-size: 14px;
+
+.footer-bottom .p-foo{
+    font-family: 'Alegreya SC', serif;
+    font-size: 20px;
     word-spacing: 2px;
-    text-transform: capitalize;
-    color: #fcfcfc;
+    color: #D4AF37;
+    padding: 0;
 }
+
 .footer-bottom span{
-    text-transform: uppercase;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
     opacity: .4;
     font-weight: 200;
-
 }
