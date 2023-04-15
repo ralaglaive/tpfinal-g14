@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generar PDF</title>
+
+</head>
+<body>
+    <h1>Crear Archivos PDF</h1>
+    <br>
+    
+    <input type="text" placeholder="Ej.: Juan Perez" id="entrada-nombre"><br><br> <!--este sería entrada de text-->
+    <input type="text" placeholder="Ej.: juan@gmail.com" id="entrada-mail"><br><br> <!--este sería entrada de text-->
+    <input type="text" placeholder="Ej.: Quiero saber más de..." id="entrada-consulta"><br><br> <!--este sería entrada de text-->
+
+    <a href="javascript:genPDF()">Crear pdf</a> <!--este llamada a función y botón-->
+
+    <script type="text/javascript" src="jspdf.min.js"></script> <!--esta la llamada al archivo que descargamos generador de pdf-->
+    <script type="text/javascript" src="app2.js"></script>
+</body>
+</html>
