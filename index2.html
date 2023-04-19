@@ -8,16 +8,19 @@
 
 </head>
 <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
     <h1>Crear Archivos PDF</h1>
     <br>
     
-    <input type="text" placeholder="Ej.: Juan Perez" id="entrada-nombre"><br><br> <!--este sería entrada de text-->
-    <input type="text" placeholder="Ej.: juan@gmail.com" id="entrada-mail"><br><br> <!--este sería entrada de text-->
-    <input type="text" placeholder="Ej.: Quiero saber más de..." id="entrada-consulta"><br><br> <!--este sería entrada de text-->
+    <input type="text" placeholder="Ingrese su nombre" id="entrada-nombre"><br><br> <!--este sería entrada de text-->
+    <input type="mail" placeholder="Ingrese su direccion de mail" id="entrada-mail"><br><br> <!--este sería entrada de text-->
+    <input type="text" placeholder="Deje su consulta aqui" id="entrada-consulta"><br><br> <!--este sería entrada de text-->
 
-    <a href="javascript:genPDF()">Crear pdf</a> <!--este llamada a función y botón-->
+    <div><button type="button" id= "Generar-pdf"> Generar PDF </button></div>
 
     <script type="text/javascript" src="jspdf.min.js"></script> <!--esta la llamada al archivo que descargamos generador de pdf-->
     <script type="text/javascript" src="app2.js"></script>
+
 </body>
 </html>
